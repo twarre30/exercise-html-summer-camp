@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+  border: 8px solid hsl(120, 60%, 40%);
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Staatliches, sans-serif;
+  font-size: 64px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+p + p {
+  margin-bottom: 64px;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 2em;
+  width: 25em;
+  padding: 16px 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  border: none;
+  background-color: hsl(120, 60%, 40%);
+  color: #fff;
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  box-shadow: 1px 1px 3px hsl(0, 0%, 50%);
+  margin: 0 auto;
+  display: block;
+}
