@@ -8,3 +8,5 @@ Write HTML in the `index.html` file that does the following:
   * "If you're interested in learning more about our options this summer, please sign up for the interest list!"
 * Has a labeled input to collect an email address
 * Has a button that says "Sign Up"
+
+Add or edit some styles in the `index.css` file.
